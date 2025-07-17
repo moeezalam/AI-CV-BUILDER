@@ -1,0 +1,50 @@
+\documentclass[<<FONT_SIZE>>,a4paper,sans]{moderncv}
+
+% Modern CV theme and color
+\moderncvstyle{banking}
+\moderncvcolor{<<COLOR_SCHEME>>}
+
+% Character encoding
+\usepackage[utf8]{inputenc}
+
+% Page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+
+% Personal data
+\name{<<NAME>>}{}
+\email{<<EMAIL>>}
+\phone[mobile]{<<PHONE>>}
+\social[linkedin]{<<LINKEDIN>>}
+\address{<<LOCATION>>}{}{}
+\homepage{<<WEBSITE>>}
+
+\begin{document}
+
+% Make the header
+\makecvtitle
+
+% Professional Summary
+\section{Professional Summary}
+\cvitem{}{<<SUMMARY>>}
+
+% Skills
+\section{Technical Skills}
+\cvitem{}{<<SKILLS>>}
+
+% Work Experience
+\section{Work Experience}
+<<EXPERIENCE>>
+
+% Projects
+\ifx\empty<<PROJECTS>>\empty
+\else
+\section{Projects}
+<<PROJECTS>>
+\fi
+
+% Education
+\section{Education}
+<<EDUCATION>>
+
+\end{document}

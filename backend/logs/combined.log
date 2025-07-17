@@ -1,0 +1,39 @@
+[2025-07-17T13:47:59.063Z] ERROR: Failed to initialize email service
+[2025-07-17T13:47:59.075Z] INFO: Server running on port 3001 in development mode
+[2025-07-17T13:49:21.778Z] INFO: SIGINT received, shutting down gracefully
+[2025-07-17T13:52:36.611Z] ERROR: Failed to initialize email service
+[2025-07-17T13:52:36.620Z] INFO: Server running on port 3001 in development mode
+[2025-07-17T13:52:43.354Z] INFO: GET /health - ::1
+[2025-07-17T13:53:59.627Z] INFO: SIGINT received, shutting down gracefully
+[2025-07-17T14:27:13.299Z] ERROR: Failed to initialize email service
+[2025-07-17T14:27:13.308Z] INFO: Server running on port 3001 in development mode
+[2025-07-17T14:27:38.916Z] INFO: GET / - ::1
+[2025-07-17T14:27:38.935Z] INFO: GET / - ::1
+[2025-07-17T14:27:39.793Z] INFO: GET /favicon.ico - ::1
+[2025-07-17T14:49:31.219Z] INFO: SIGINT received, shutting down gracefully
+[2025-07-17T14:49:36.543Z] ERROR: Failed to initialize email service
+[2025-07-17T14:49:36.552Z] INFO: Server running on port 3001 in development mode
+[2025-07-17T15:55:36.088Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T15:55:36.092Z] INFO: Extracting keywords from job description
+[2025-07-17T15:55:44.198Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T15:55:44.199Z] INFO: Extracting keywords from job description
+[2025-07-17T15:59:13.502Z] INFO: GET /health - ::1
+[2025-07-17T16:05:42.746Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T16:05:42.746Z] INFO: Extracting keywords from job description
+[2025-07-17T16:10:19.192Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T16:10:19.211Z] INFO: Extracting keywords from job description
+[2025-07-17T16:14:28.858Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T16:14:28.859Z] INFO: Extracting keywords from job description
+[2025-07-17T16:14:44.650Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T16:14:44.650Z] INFO: Extracting keywords from job description
+[2025-07-17T16:18:28.922Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T16:18:28.923Z] INFO: Extracting keywords from job description
+[2025-07-17T18:50:07.297Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T18:50:07.298Z] INFO: Extracting keywords from job description
+[2025-07-17T19:43:17.997Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T19:43:17.998Z] INFO: Extracting keywords from job description
+[2025-07-17T19:46:06.740Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T19:46:06.740Z] INFO: Extracting keywords from job description
+[2025-07-17T19:46:18.004Z] INFO: POST /api/extract-keywords - ::1
+[2025-07-17T19:46:18.005Z] INFO: Extracting keywords from job description
+[2025-07-17T20:11:10.342Z] INFO: SIGINT received, shutting down gracefully

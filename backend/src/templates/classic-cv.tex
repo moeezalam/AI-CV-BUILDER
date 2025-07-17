@@ -1,0 +1,97 @@
+\documentclass[<<FONT_SIZE>>,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Page setup
+\geometry{
+    left=<<MARGIN_SIZE>>,
+    right=<<MARGIN_SIZE>>,
+    top=<<MARGIN_SIZE>>,
+    bottom=<<MARGIN_SIZE>>
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Define colors
+\definecolor{headercolor}{RGB}{0,0,0}
+\definecolor{sectioncolor}{RGB}{0,0,0}
+
+% Section formatting
+\titleformat{\section}
+{\Large\bfseries\color{sectioncolor}}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\large\bfseries}
+{}
+{0em}
+{}
+
+% Custom commands
+\newcommand{\cventry}[6]{
+    \subsection*{#2 \hfill #1}
+    \textbf{#3} \hfill #4 \\
+    #6
+    \vspace{0.5em}
+}
+
+\newcommand{\cvitem}[2]{
+    \textbf{#1:} #2 \\
+}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\bfseries\color{headercolor} <<NAME>>} \\[0.5em]
+    <<EMAIL>> $\bullet$ <<PHONE>> $\bullet$ <<LOCATION>> \\
+    \ifx\empty<<LINKEDIN>>\empty\else LinkedIn: \href{https://linkedin.com/in/<<LINKEDIN>>}{<<LINKEDIN>>} \fi
+    \ifx\empty<<WEBSITE>>\empty\else $\bullet$ \href{<<WEBSITE>>}{<<WEBSITE>>} \fi
+\end{center}
+
+\vspace{1em}
+
+% Professional Summary
+\section{Professional Summary}
+<<SUMMARY>>
+
+% Skills
+\section{Technical Skills}
+<<SKILLS>>
+
+% Work Experience
+\section{Work Experience}
+<<EXPERIENCE>>
+
+% Projects
+\ifx\empty<<PROJECTS>>\empty
+\else
+\section{Projects}
+<<PROJECTS>>
+\fi
+
+% Education
+\section{Education}
+<<EDUCATION>>
+
+\end{document}

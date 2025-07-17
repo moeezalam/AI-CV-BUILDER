@@ -1,0 +1,66 @@
+{
+  "templates": {
+    "modern": {
+      "name": "Modern",
+      "description": "Clean, modern design with color accents and professional layout",
+      "filename": "modern-cv.tex",
+      "preview": "modern-preview.png",
+      "features": [
+        "Color-coded sections",
+        "Modern typography",
+        "Professional layout",
+        "ATS-friendly"
+      ],
+      "defaultOptions": {
+        "fontSize": "11pt",
+        "colorScheme": "blue",
+        "margins": "normal"
+      },
+      "supportedColors": ["blue", "green", "red", "purple", "orange", "black"],
+      "requirements": ["moderncv"]
+    },
+    "classic": {
+      "name": "Classic",
+      "description": "Traditional, professional layout suitable for conservative industries",
+      "filename": "classic-cv.tex",
+      "preview": "classic-preview.png",
+      "features": [
+        "Traditional design",
+        "Clean typography",
+        "Conservative layout",
+        "Highly compatible"
+      ],
+      "defaultOptions": {
+        "fontSize": "11pt",
+        "colorScheme": "black",
+        "margins": "normal"
+      },
+      "supportedColors": ["black", "blue", "gray"],
+      "requirements": ["standard"]
+    }
+  },
+  "globalOptions": {
+    "fontSizes": ["10pt", "11pt", "12pt"],
+    "margins": {
+      "narrow": "0.5in",
+      "normal": "0.75in",
+      "wide": "1in"
+    },
+    "colorSchemes": {
+      "blue": "#2E86AB",
+      "green": "#A23B72",
+      "red": "#F18F01",
+      "purple": "#C73E1D",
+      "orange": "#F18F01",
+      "black": "#000000",
+      "gray": "#666666"
+    }
+  },
+  "validation": {
+    "maxSectionLength": 5000,
+    "maxBulletPoints": 6,
+    "maxSkills": 20,
+    "maxProjects": 5,
+    "maxEducation": 3
+  }
+}
